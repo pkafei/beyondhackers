@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import Lightbox from 'react-images';
+// import Lightbox from 'react-images';
 
 class Gallery extends Component {
     constructor () {
@@ -61,8 +61,8 @@ class Gallery extends Component {
                 <article className="6u 12u$(xsmall) work-item" key={i}>
                     <a
                         className="image fit thumb"
+                        target="_blank"
                         href={obj.src}
-                        onClick={(e) => this.openLightbox(i, e)}
                     >
                         <img src={obj.thumbnail} />
                     </a>
@@ -83,16 +83,6 @@ class Gallery extends Component {
         return (
             <div>
                 {this.renderGallery()}
-                <Lightbox
-                    currentImage={this.state.currentImage}
-                    images={this.props.images}
-                    isOpen={this.state.lightboxIsOpen}
-                    onClickImage={this.handleClickImage}
-                    onClickNext={this.gotoNext}
-                    onClickPrev={this.gotoPrevious}
-                    onClickThumbnail={this.gotoImage}
-                    onClose={this.closeLightbox}
-                />
             </div>
         );
     }
