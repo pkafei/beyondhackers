@@ -25,23 +25,16 @@ class Gallery extends Component {
 
         const gallery = images.map((obj, i) => {
             return (
-                <div class="fl w-100 w-50-ns pa2">
-                    <article class="br2 ba dark-gray b--black-10">
-                        <img src="http://placekitten.com/g/800/300" class="db w-100 br2 br--top" alt="Photo of a kitten looking menacing." />
-                        <div class="pa2 ph3-ns pb3-ns">
-                            <div class="dt w-100 mt1">
-                            <div class="dtc">
-                                <h1 class="f5 f4-ns mv0">Cat</h1>
-                            </div>
-                            <div class="dtc tr">
-                                <h2 class="f5 mv0">$1,000</h2>
-                            </div>
-                            </div>
-                            <p class="f6 lh-copy measure mt2 mid-gray">
-                            If it fits, i sits burrow under covers. Destroy couch leave hair everywhere,
-                            and touch water with paw then recoil in horror.
-                            </p>
+                <div className="fl w-100 w-50-ns pa2">
+                    <article className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
+                        <div className="tc">
+                            <img src={obj.thumbnail} className="br-100 h3 w3 dib" title="Photo of a kitty staring at you" />
+                            <h1 className="f4">{obj.caption}</h1>
+                            <hr className="mw3 bb bw1 b--black-10" />
                         </div>
+                        <p className="lh-copy measure center f6 black-70">
+                            {obj.description}
+                        </p>
                     </article>
                 </div>
             );
