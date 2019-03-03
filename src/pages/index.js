@@ -5,8 +5,8 @@ import Layout from '../components/layout'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
-import thumb01 from '../assets/images/thumbs/01.jpg'
-import thumb02 from '../assets/images/thumbs/02.jpg'
+import thumb01 from '../assets/images/thumbs/beyond_hackers_bicycle_collective.png'
+import thumb02 from '../assets/images/thumbs/beyond_hackers_distributed_health_care.png'
 import thumb03 from '../assets/images/thumbs/03.jpg'
 import thumb04 from '../assets/images/thumbs/04.jpg'
 import thumb05 from '../assets/images/thumbs/05.jpg'
@@ -20,8 +20,8 @@ import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 
 const DEFAULT_IMAGES = [
-    { id: '1', src: 'https://pricey-lancer.glitch.me/', thumbnail: thumb01, caption: 'Bicycles', description: 'Look at bikes on the blockchain.'},
-    { id: '2', src: full02, thumbnail: thumb02, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+    { id: '1', src: 'https://pricey-lancer.glitch.me/', thumbnail: thumb01, caption: 'Bicycles on the Blockchain', description: 'Look at bikes on the blockchain.'},
+    { id: '2', src: full02, thumbnail: thumb02, caption: 'Distributed Health Care Identity', description: 'Decentralized sign-in example.'},
     { id: '4', src: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
     { id: '5', src: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
     { id: '6', src: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
