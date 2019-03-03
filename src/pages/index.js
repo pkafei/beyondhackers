@@ -7,24 +7,10 @@ import Gallery from '../components/Gallery'
 
 import thumb01 from '../assets/images/thumbs/beyond_hackers_bicycle_collective.png'
 import thumb02 from '../assets/images/thumbs/beyond_hackers_distributed_health_care.png'
-import thumb03 from '../assets/images/thumbs/03.jpg'
-import thumb04 from '../assets/images/thumbs/04.jpg'
-import thumb05 from '../assets/images/thumbs/05.jpg'
-import thumb06 from '../assets/images/thumbs/06.jpg'
-
-import full01 from '../assets/images/fulls/01.jpg'
-import full02 from '../assets/images/fulls/02.jpg'
-import full03 from '../assets/images/fulls/03.jpg'
-import full04 from '../assets/images/fulls/04.jpg'
-import full05 from '../assets/images/fulls/05.jpg'
-import full06 from '../assets/images/fulls/06.jpg'
 
 const DEFAULT_IMAGES = [
-    { id: '1', src: 'https://pricey-lancer.glitch.me/', thumbnail: thumb01, caption: 'Bicycles on the Blockchain', description: 'Look at bikes on the blockchain.'},
-    { id: '2', src: full02, thumbnail: thumb02, caption: 'Distributed Health Care Identity', description: 'Decentralized sign-in example.'},
-    { id: '4', src: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '5', src: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '6', src: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
+    { id: '1', src: 'https://pricey-lancer.glitch.me/', thumbnail: thumb01, caption: 'Bicycles on the Blockchain', description: 'Rent bikes on the blockchain.'},
+    { id: '2', src: 'https://rowan-pilot.glitch.me/', thumbnail: thumb02, caption: 'Distributed Health Care Identity', description: 'Decentralized sign-in example.'},
 ];
 
 class HomeIndex extends React.Component {
@@ -92,7 +78,8 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h2>Beyond Hackers</h2>
                         </header>
-                        <p>Welcome. The goal of <b>Beyond Hackers</b> is to translate buzzwords like "blockchain" and "machine learning" into real products. Below are applications addressing problems ranging from data privacy in health care to a raspberry pi helpfully reminding you when to pack a rain jacket.</p>
+                        <p>Welcome. The goal of <b>Beyond Hackers</b> is to translate buzzwords like "blockchain" and "distributed" into real products. When I'm not coding up Dapps, I work on the community team at <a href="https://protocol.ai/">Protocol Labs</a>.</p>
+                        <p>I use to I also like to blog and discuss this brave new world of decentralized money and power.</p>
                         <p>Code the change you want to see!</p>
                         <ul className="actions">
                             <li><a href="https://medium.com/@beyondhackers" className="button">Writings</a></li>
