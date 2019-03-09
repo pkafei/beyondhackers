@@ -25,8 +25,8 @@ class Gallery extends Component {
 
         const gallery = images.map((obj, i) => {
             return (
-                <div className="fl w-100 w-50-ns pa2">
-                    <a href={obj.src} target="_blank" className="link underline-hover dim blue">
+                <div key={obj.id} className="fl w-100 w-50-ns pa2">
+                    <a href={obj.src} target="_blank" rel="noopener noreferrer" className="link underline-hover dim blue">
                         <article className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
                             <div className="tc">
                                 <img src={obj.thumbnail} className="br-100 h4 w4 dib ba b--black-05 pa2" title="Photo of a kitty staring at you" />
@@ -43,7 +43,7 @@ class Gallery extends Component {
         });
 
         return (
-                <div class="cf mw9 center ph3-ns">
+                <div className="cf mw9 center ph3-ns">
                     {gallery}
                 </div>
         );

@@ -91,9 +91,10 @@ class HomeIndex extends React.Component {
                     </section>
 
                     <section id="two">
-                        <h2>Blockchain App Portfolio</h2>
+                        <h2>Portfolio</h2>
 
                         <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail, caption, description }) => ({
+                            id,
                             src,
                             thumbnail,
                             caption,
