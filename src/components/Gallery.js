@@ -26,8 +26,8 @@ class Gallery extends Component {
         const gallery = images.map((obj, i) => {
             return (
                 <div key={obj.id} className="fl w-100 w-50-ns pa2">
-                    <a href={obj.src} target="_blank" rel="noopener noreferrer" className="link underline-hover dim blue">
-                            <article className="bg-white center mw5 ba b--black-10 mv4">
+                    <a href={obj.src} target="_blank" rel="noopener noreferrer" className="link underline-hover dim blue grow">
+                            <article className="bg-white center mw5 ba b--black-10 mv4 shadow-5">
                             <div className="pv2 ph3">
                                 <h1 className="f6 ttu tracked">{obj.caption}</h1>
                             </div>

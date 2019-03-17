@@ -11,7 +11,7 @@ import thumb02 from '../assets/images/thumbs/beyond_hackers_bicycle_collective.p
 import thumb03 from '../assets/images/thumbs/tech_portfolio_hero.png'
 
 const DEFAULT_IMAGES = [
-    { id: '1', src: 'https://rowan-pilot.glitch.me/', thumbnail: thumb01, caption: 'Github without Code', description: 'Decentralized.'},
+    { id: '1', src: 'https://github.com/ipfs/community-call-helper', thumbnail: thumb01, caption: 'Github without Code', description: 'Decentralized.'},
     { id: '2', src: 'https://pricey-lancer.glitch.me/', thumbnail: thumb02, caption: 'Bicycles on the Blockchain', description: 'Rent bikes on the blockchain.'},
     { id: '3', src: 'https://www.techportfoliohero.com/', thumbnail: thumb03, caption: 'Tech Portfolio Hero', description: 'Career consulting for developers.'},
 
