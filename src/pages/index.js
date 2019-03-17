@@ -5,13 +5,14 @@ import Layout from '../components/layout'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
-import thumb01 from '../assets/images/thumbs/beyond_hackers_bicycle_collective.png'
-import thumb02 from '../assets/images/thumbs/beyond_hackers_distributed_health_care.png'
+
+import thumb01 from '../assets/images/thumbs/beyond_hackers_portfolio_form.png'
+import thumb02 from '../assets/images/thumbs/beyond_hackers_bicycle_collective.png'
 import thumb03 from '../assets/images/thumbs/tech_portfolio_hero.png'
 
 const DEFAULT_IMAGES = [
-    { id: '1', src: 'https://pricey-lancer.glitch.me/', thumbnail: thumb01, caption: 'Bicycles on the Blockchain', description: 'Rent bikes on the blockchain.'},
-    { id: '2', src: 'https://rowan-pilot.glitch.me/', thumbnail: thumb02, caption: 'Distributed Health Care Identity', description: 'Decentralized sign-in example.'},
+    { id: '1', src: 'https://rowan-pilot.glitch.me/', thumbnail: thumb01, caption: 'Github without Code', description: 'Decentralized.'},
+    { id: '2', src: 'https://pricey-lancer.glitch.me/', thumbnail: thumb02, caption: 'Bicycles on the Blockchain', description: 'Rent bikes on the blockchain.'},
     { id: '3', src: 'https://www.techportfoliohero.com/', thumbnail: thumb03, caption: 'Tech Portfolio Hero', description: 'Career consulting for developers.'},
 
 

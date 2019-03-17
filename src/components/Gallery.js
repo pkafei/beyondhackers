@@ -27,17 +27,13 @@ class Gallery extends Component {
             return (
                 <div key={obj.id} className="fl w-100 w-50-ns pa2">
                     <a href={obj.src} target="_blank" rel="noopener noreferrer" className="link underline-hover dim blue">
-                        <article className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
-                            <div className="tc">
-                                <img src={obj.thumbnail} className="br-100 h4 w4 dib ba b--black-05 pa2" title="Photo of a kitty staring at you" />
-                                <h1 className="f4">{obj.caption}</h1>
-                                <hr className="mw3 bb bw1 b--black-10" />
+                            <article className="bg-white center mw5 ba b--black-10 mv4">
+                            <div className="pv2 ph3">
+                                <h1 className="f6 ttu tracked">{obj.caption}</h1>
                             </div>
-                            <p className="lh-copy measure center f6 black-70">
-                                {obj.description}
-                            </p>
+                            <img src={obj.thumbnail} className="w-100 db" alt="Closeup photo of a tabby cat yawning." />
                         </article>
-                    </a>
+                   </a>
                 </div>
             );
         });
