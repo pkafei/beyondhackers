@@ -83,9 +83,18 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h2>Beyond Hackers</h2>
                         </header>
-                        <p>Welcome. The goal of <b>Beyond Hackers</b> is to translate buzzwords like "blockchain" and "distributed" into real products. When I'm not coding up Dapps, I work on the community team at <a href="https://protocol.ai/">Protocol Labs</a>.</p>
-                        <p>I use to I also like to blog and discuss this brave new world of decentralized money and power.</p>
-                        <p>Code the change you want to see!</p>
+                        <p>Welcome. <b>Beyond Hackers</b> is a boutique web consultancy where we give each of our clients individual attention.
+                            We craft web products that helps build your company.
+                            We specialize in building smart websites that are responsive, secure, and up-to-date with the latest web technologies.
+                        </p>
+                        <p>We love working with:</p>
+                        <ul>
+                            <li>JavaScript</li>
+                            <li>HTML/CSS</li>
+                            <li>React</li>
+                            <li>Django/Python</li>
+                        </ul>
+
                         <ul className="actions">
                             <li><a href="https://medium.com/@beyondhackers" className="button">Writings</a></li>
                         </ul>
